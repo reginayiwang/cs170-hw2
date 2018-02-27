@@ -7,7 +7,7 @@
       // Feb 27 hw2 1.b
       %th{:class => ("hilite" if params[:sortby] == "title")}= link_to 'Movie Title', movies_path(:sortby => "title")
       %th Rating
-      %th{:class => ("hilite" if params[:sortby] == "date")}= link_to 'Release Date', movies_path
+      %th{:class => ("hilite" if params[:sortby] == "date")}= link_to 'Release Date', movies_path(:sortby=> "date")
       // ----------------
       %th More Info
   %tbody
