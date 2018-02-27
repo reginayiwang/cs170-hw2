@@ -44,6 +44,11 @@ table#movies th {
   font-weight: bold;
   background-color: wheat;
 }
+/* Feb 27 hw2 1.b */
+table#movies th.hilite {
+ background-color: yellow;
+}
+/* ---------------- */
 table#movies th, table#movies td {
   padding: 4px;
   text-align: left;
